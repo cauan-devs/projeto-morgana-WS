@@ -31,13 +31,16 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: 
           Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Container(
-                color: Colors.grey,
-                height: 250,
-                width: 250,
-                margin: const EdgeInsets.fromLTRB(0, 250, 0, 20)),
-                Text("Bem-vindo ao Aprender+")
+              SizedBox(
+                height: 200,
+                width: 700,
+                child: Image.asset('assets/images/aprender.png',
+                ),
+              ),
+              Text("Bem vindo ao Aprender+")
             ],
           ),
       ),
@@ -51,7 +54,7 @@ class _HomePageState extends State<HomePage> {
             children: [
              IconButton(
            iconSize: 40,
-            icon: const Icon(Icons.arrow_back, color: Colors.black),
+            icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
             onPressed: () {
            Navigator.pop(context);
                     },
