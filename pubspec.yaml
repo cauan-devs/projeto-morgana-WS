@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   google_fonts: ^8.2.1
+  audioplayers: ^6.8.1
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +63,22 @@ flutter:
   assets:
     - assets/images/aprender.png
     - Banco.JSON/bancoQuestoes.json
+    - assets/audios/CLICK-MOUSE/mouse-click-sound.mp3
+    - assets/audios/EN/blue.mp3
+    - assets/audios/EN/green.mp3
+    - assets/audios/EN/orange.mp3
+    - assets/audios/EN/red.mp3
+    - assets/audios/EN/yellow.mp3
+    - assets/audios/ES/amarillo.mp3
+    - assets/audios/ES/azul (1).mp3
+    - assets/audios/ES/naranja.mp3
+    - assets/audios/ES/rojo.mp3
+    - assets/audios/ES/verde (1).mp3
+    - assets/audios/PT-BR/amarelo (1).mp3
+    - assets/audios/PT-BR/azul.mp3
+    - assets/audios/PT-BR/laranja.mp3
+    - assets/audios/PT-BR/verde.mp3
+    - assets/audios/PT-BR/vermelho.mp3
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

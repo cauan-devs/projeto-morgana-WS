@@ -1,19 +1,15 @@
 import 'package:flutter/material.dart';
 
-class Memocheck extends StatefulWidget {
-  const Memocheck({super.key});
+class MemoCheck extends StatefulWidget {
+  const MemoCheck({super.key});
 
   @override
-  State<Memocheck> createState() => _MemocheckState();
+  State<MemoCheck> createState() => _MemoCheckState();
 }
 
-class _MemocheckState extends State<Memocheck> {
+class _MemoCheckState extends State<MemoCheck> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: TextButton(onPressed: () {
-        Navigator.pop(context);
-      }, child: Text("sair do memoCheck?")),
-    );
+    return const Placeholder();
   }
 }

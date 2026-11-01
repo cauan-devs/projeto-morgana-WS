@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ws_morgana/geniusplay.dart';
+import 'package:ws_morgana/genius_play.dart';
 import 'package:ws_morgana/memocheck.dart';
 import 'package:ws_morgana/quizmybrain.dart';
 
@@ -86,7 +86,7 @@ class _OpcoesState extends State<Opcoes> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Memocheck()),
+                MaterialPageRoute(builder: (context) => MemoCheck()),
               );
             },
             title: Text(
